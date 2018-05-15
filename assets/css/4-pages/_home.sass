@@ -1,0 +1,18 @@
+// Brands Styles
+
+#brands ul
+  margin: 0
+  padding: 20px 0
+  background: #fff
+  display: grid
+  grid-template-columns: repeat(6, auto)
+
+  // CSS Grid to 3 Columns - Responsive
+  @media only screen and (max-width: 650px)
+    grid-template-columns: repeat(3, auto)
+
+  li
+    list-style: none
+
+    img
+      width: 100

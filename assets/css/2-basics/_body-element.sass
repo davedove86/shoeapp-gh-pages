@@ -1,0 +1,44 @@
+html
+  // border-box box model allows us to add padding and border to our elements without increasing their size
+  box-sizing: border-box
+
+  // WAT IS THIS?!
+  // We inherit box-sizing: border-box; from our <html> selector
+*,
+*:before,
+*:after
+  box-sizing: inherit
+
+
+body
+  font-size: 14px
+  line-height: 1.6
+  font-size: 14px
+  color: black
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  -webkit-tap-highlight-color: #FFF498
+
+  ::selection
+    background: #FFF498
+
+  ::-moz-selection
+    background: #FFF498
+
+  img::selection
+    background: transparent
+
+  img::-moz-selection
+    background: transparent
+    
+
+
+
+.wrapper
+  width: 100%
+  max-width: 1100px
+  margin: 0 auto
+
+
+section
+  display: -webkit-box
